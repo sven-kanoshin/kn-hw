@@ -3,11 +3,15 @@ version: "3"
 services:
 
   kn-hw-be:
-    image: kn-hw-be
+    build:
+      context: ./back
     ports:
-      - "9090"
+      - "9090:8666"
 
   kn-hw-fe:
-    image: kn-hw-fe
+    build:
+      context: ./front
+      args:
+        API_ENDPOINT_ARG: http://localhost:9090/kn
     ports:
-      - "8080"
+      - "8080:8080"

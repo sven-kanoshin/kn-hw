@@ -117,3 +117,14 @@ For the demo, the users are included in the application
  - "anon:" (empty password) - "ANON" role -  No permissions
  - "user:password" - "USER" role - 'View' permissions
  - "admin:admin" - "ADMIN" role - 'View' and 'Edit' permissions
+ 
+# Team Way-of-Work
+## Team Setup
+One Frontend person, one Backend person. Working in a "remote work" configuration, ie team was separated but had in person status and discussion meetings. From implementation side, Backend was the front-runner: implementing features and offering them to Frontend when the features were ready. In essence, Backend defined the architecture and application communication design, while Frontend implemented the integration by API spec.
+## Timeframe 
+Backend - ~30h
+Frontend - ~15h 
+## Benefits of working with team vs solo
+Specialization and dicussions. 
+Specialization means, the team member can dig deep into a specific topic without the whole project stalling. Other members can keep developing at the same time. Discussions and different ideas are always welcome, but become imperative when being stuck in a situation. Digging yourself out of a hole is much easier, when there is another person who is helping you.
+ 

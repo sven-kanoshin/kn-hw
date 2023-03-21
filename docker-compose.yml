@@ -4,12 +4,10 @@ services:
 
   kn-hw-be:
     image: kn-hw-be
-    env_file: default.env
     ports:
       - "9090"
 
   kn-hw-fe:
     image: kn-hw-fe
-    env_file: default.env
     ports:
       - "8080"

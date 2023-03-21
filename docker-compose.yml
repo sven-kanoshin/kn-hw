@@ -1,0 +1,15 @@
+# Environment variables are defined in default.env file
+version: "3"
+services:
+
+  kn-hw-be:
+    image: ${IMAGE_BE}
+    env_file: default.env
+    ports:
+      - "${HOST_PORT_BE}:9090"
+
+  kn-hw-fe:
+    image: ${IMAGE_FE}
+    env_file: default.env
+    ports:
+      - "${HOST_PORT_FE}:8080"

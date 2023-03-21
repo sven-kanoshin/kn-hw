@@ -3,13 +3,13 @@ version: "3"
 services:
 
   kn-hw-be:
-    image: ${IMAGE_BE}
+    image: kn-hw-be
     env_file: default.env
     ports:
-      - "${HOST_PORT_BE}:9090"
+      - "9090"
 
   kn-hw-fe:
-    image: ${IMAGE_FE}
+    image: kn-hw-fe
     env_file: default.env
     ports:
-      - "${HOST_PORT_FE}:8080"
+      - "8080"

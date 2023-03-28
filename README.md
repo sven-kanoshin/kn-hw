@@ -24,8 +24,8 @@ Will stop the whole app
 
 ## users
 
-admin/admin - will be able to edit the name and image of the cities
-user/password - will only be able to browse/search the list (but not edit)
+ - admin/admin - will be able to edit the name and image of the cities
+ - user/password - will only be able to browse/search the list (but not edit)
 
 ## other notes
 
